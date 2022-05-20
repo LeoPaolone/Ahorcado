@@ -1,0 +1,48 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    background-color: rgb(221, 160, 221);
+}
+
+.palabra-nueva{
+    display: none;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    width: auto;
+    height: 500px;
+}
+
+.input-palabra-nueva{
+    width: 320px;
+    height: 49px;
+    margin-bottom: 364px;
+    font-size: 32px;
+    border: none;
+}
+
+.btn_guardar{
+         width: 80%;
+        max-width: 330px;
+        height: 68px;
+        border-radius: 30px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+
+}
+
+
+.btn_cancelar{
+        width: 80%;
+        max-width: 330px;
+        height: 68px;
+        border-radius: 30px;
+        color: white;
+       font-size: 15px;
+       cursor: pointer;
+}

@@ -1,0 +1,72 @@
+*{
+    background-color: lightblue;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+.Iniciar-juego{
+       display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+    
+        position: absolute;
+        width: 317px;
+        height: 114px;
+        left: 561px;
+        top: 402px;
+        cursor: pointer;
+    
+       
+    
+        background: #0A3871;
+        border-radius: 24px;
+        color: white;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+}
+
+.Agregar{
+    box-sizing: border-box;
+    
+       
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+    
+        position: absolute;
+        width: 280px;
+        height: 67px;
+        left: 579px;
+        top: 554px;
+    
+       
+    
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+h1{
+    color: white;
+    position: relative;
+    right: 220px;
+}
+
+footer{
+    position: relative;
+    top: 802px;
+    right: 200px;
+}

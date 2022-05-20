@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="icon" href="Icono/ahorcado.jpg">
+    <link rel="stylesheet" href="juego.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"
+</head>
+<body>
+<section class="container">
+    <h1>Ahorcado</h1>
+    <section class="respuestas">respuestas incorrectas: <span id="errores">0</span> de <span id="intentos"></span></section>
+    <section>
+        <img id="ahorcado" src="imagenes/0.jpg" alt="">
+        <p>Adivina la palabra</p>
+        <p id="palabraDestacada">La respuesta correcta es: </p>
+        <section id="teclado"></section>
+             <section class="botones">
+            <button class="btn_reiniciar" onClick="reset()">Reinciar</button>
+            <button class="btn_menu" onclick="location.href='index.html'">Menú</
+           </section>
+     
+    </section>
+</section>
+</body>
+<script src="juego.js"></script>
+</html>
